@@ -1,0 +1,7 @@
+LIBRARY d3dcompiler_43
+EXPORTS
+D3DCompile
+D3DReflect
+D3DPreprocess
+D3DGetBlobPart
+D3DDisassemble
