@@ -27,6 +27,9 @@
     <ClInclude Include="memory_helpers.h">
       <Filter>Source Files</Filter>
     </ClInclude>
+    <ClInclude Include="ini_config.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="proxy.cpp">

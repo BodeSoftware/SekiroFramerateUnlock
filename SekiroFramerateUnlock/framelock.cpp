@@ -2,14 +2,20 @@
 #include <cstdint>
 #include "offsets.h"
 #include "memory_helpers.h"
-
-// Simple settings: choose desired FPS here (or read from an ini if you want)
-static float DESIRED_FPS = 144.0f; // change to whatever you want
-static bool ENABLED = true;        // set false to restore 60 FPS on write
+#include "ini_config.h"
 
 // The core patch function
 void ApplyFramelockPatch()
 {
+    // Load settings from INI file
+    IniConfig config("SekiroFPS.ini");
+
+    // Create default INI if it doesn't exist
+    config.CreateDefault();
+
+    // Read settings
+    float DESIRED_FPS = config.GetFloat("Settings", "TargetFPS", 144.0f);
+
     uintptr_t fps_addr = GetAbsoluteAddress(fps_offset);
     if (!fps_addr) {
         MessageBoxA(nullptr, "Failed to compute fps address", "Framelock", MB_OK | MB_ICONERROR);
@@ -20,9 +26,6 @@ void ApplyFramelockPatch()
     // clamp to a sensible range
     if (FPS < 30.0f) FPS = 30.0f;
     if (FPS > 300.0f) FPS = 300.0f;
-
-    if (!ENABLED)
-        FPS = 60.0f;
 
     float targetDelta = 1.0f / FPS;
 
