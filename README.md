@@ -5,6 +5,7 @@ Unlock the framerate in Sekiro: Shadows Die Twice and play at higher refresh rat
 ## 📋 What This Does
 
 This mod removes the 60 FPS cap from Sekiro, allowing you to play at higher framerates like 120, 144, or even 240 FPS. Perfect for high refresh rate monitors!
+This mod sets the game to borderless windowed mode.
 
 ## ⚙️ Installation
 
