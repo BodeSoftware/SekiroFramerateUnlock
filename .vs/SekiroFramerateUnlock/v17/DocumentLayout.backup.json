@@ -3,6 +3,10 @@
   "WorkspaceRootPath": "S:\\Code projects\\SekiroFramerateUnlock\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{EA9D267C-B83D-4C77-A5E4-87A5EDBE46BA}|SekiroFramerateUnlock\\SekiroFramerateUnlock.vcxproj|S:\\Code projects\\SekiroFramerateUnlock\\SekiroFramerateUnlock\\dllmain.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{EA9D267C-B83D-4C77-A5E4-87A5EDBE46BA}|SekiroFramerateUnlock\\SekiroFramerateUnlock.vcxproj|solutionrelative:SekiroFramerateUnlock\\dllmain.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{EA9D267C-B83D-4C77-A5E4-87A5EDBE46BA}|SekiroFramerateUnlock\\SekiroFramerateUnlock.vcxproj|S:\\Code projects\\SekiroFramerateUnlock\\SekiroFramerateUnlock\\framelock.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
       "RelativeMoniker": "D:0:0:{EA9D267C-B83D-4C77-A5E4-87A5EDBE46BA}|SekiroFramerateUnlock\\SekiroFramerateUnlock.vcxproj|solutionrelative:SekiroFramerateUnlock\\framelock.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
@@ -17,10 +21,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{EA9D267C-B83D-4C77-A5E4-87A5EDBE46BA}|SekiroFramerateUnlock\\SekiroFramerateUnlock.vcxproj|S:\\Code projects\\SekiroFramerateUnlock\\SekiroFramerateUnlock\\exports.def||{8B382828-6202-11D1-8870-0000F87579D2}",
       "RelativeMoniker": "D:0:0:{EA9D267C-B83D-4C77-A5E4-87A5EDBE46BA}|SekiroFramerateUnlock\\SekiroFramerateUnlock.vcxproj|solutionrelative:SekiroFramerateUnlock\\exports.def||{8B382828-6202-11D1-8870-0000F87579D2}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{EA9D267C-B83D-4C77-A5E4-87A5EDBE46BA}|SekiroFramerateUnlock\\SekiroFramerateUnlock.vcxproj|S:\\Code projects\\SekiroFramerateUnlock\\SekiroFramerateUnlock\\dllmain.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{EA9D267C-B83D-4C77-A5E4-87A5EDBE46BA}|SekiroFramerateUnlock\\SekiroFramerateUnlock.vcxproj|solutionrelative:SekiroFramerateUnlock\\dllmain.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{EA9D267C-B83D-4C77-A5E4-87A5EDBE46BA}|SekiroFramerateUnlock\\SekiroFramerateUnlock.vcxproj|S:\\Code projects\\SekiroFramerateUnlock\\SekiroFramerateUnlock\\memory_helpers.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
@@ -38,11 +38,11 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 3,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 2,
               "Title": "ini_config.h",
               "DocumentMoniker": "S:\\Code projects\\SekiroFramerateUnlock\\SekiroFramerateUnlock\\ini_config.h",
               "RelativeDocumentMoniker": "SekiroFramerateUnlock\\ini_config.h",
@@ -50,12 +50,11 @@
               "RelativeToolTip": "SekiroFramerateUnlock\\ini_config.h",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAADsAAAACAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
-              "WhenOpened": "2025-11-07T02:57:13.967Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-11-07T02:57:13.967Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
               "Title": "framelock.cpp",
               "DocumentMoniker": "S:\\Code projects\\SekiroFramerateUnlock\\SekiroFramerateUnlock\\framelock.cpp",
               "RelativeDocumentMoniker": "SekiroFramerateUnlock\\framelock.cpp",
@@ -68,7 +67,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 4,
               "Title": "exports.def",
               "DocumentMoniker": "S:\\Code projects\\SekiroFramerateUnlock\\SekiroFramerateUnlock\\exports.def",
               "RelativeDocumentMoniker": "SekiroFramerateUnlock\\exports.def",
@@ -80,19 +79,20 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 0,
               "Title": "dllmain.cpp",
               "DocumentMoniker": "S:\\Code projects\\SekiroFramerateUnlock\\SekiroFramerateUnlock\\dllmain.cpp",
               "RelativeDocumentMoniker": "SekiroFramerateUnlock\\dllmain.cpp",
               "ToolTip": "S:\\Code projects\\SekiroFramerateUnlock\\SekiroFramerateUnlock\\dllmain.cpp",
               "RelativeToolTip": "SekiroFramerateUnlock\\dllmain.cpp",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAB8AAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAABgAAAAAAAAAAAAAAAYAAAAhAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
-              "WhenOpened": "2025-11-05T02:31:11.882Z"
+              "WhenOpened": "2025-11-05T02:31:11.882Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 3,
               "Title": "proxy.cpp",
               "DocumentMoniker": "S:\\Code projects\\SekiroFramerateUnlock\\SekiroFramerateUnlock\\proxy.cpp",
               "RelativeDocumentMoniker": "SekiroFramerateUnlock\\proxy.cpp",

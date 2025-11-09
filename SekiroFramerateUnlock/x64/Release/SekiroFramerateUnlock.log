@@ -1,11 +1,10 @@
 ﻿  dllmain.cpp
-  framelock.cpp
-  proxy.cpp
      Creating library S:\Code projects\SekiroFramerateUnlock\x64\Release\SekiroFramerateUnlock.lib and object S:\Code projects\SekiroFramerateUnlock\x64\Release\SekiroFramerateUnlock.exp
-  Previous IPDB not found, fall back to full compilation.
 SekiroFramerateUnlock.exp : warning LNK4070: /OUT:d3dcompiler_43.dll directive in .EXP differs from output filename 'S:\Code projects\SekiroFramerateUnlock\x64\Release\SekiroFramerateUnlock.dll'; ignoring directive
   Generating code
-  All 125 functions were compiled because no usable IPDB/IOBJ from previous compilation was found.
+  4 of 126 functions ( 3.2%) were compiled, the rest were copied from previous compilation.
+    1 functions were new in current compilation
+    0 functions had inline decision re-evaluated but remain unchanged
   Finished generating code
 SekiroFramerateUnlock.exp : warning LNK4070: /OUT:d3dcompiler_43.dll directive in .EXP differs from output filename 'S:\Code projects\SekiroFramerateUnlock\x64\Release\SekiroFramerateUnlock.dll'; ignoring directive
   SekiroFramerateUnlock.vcxproj -> S:\Code projects\SekiroFramerateUnlock\x64\Release\SekiroFramerateUnlock.dll
